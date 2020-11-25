@@ -1,0 +1,32 @@
+.header {
+  background: url('../img/destaque.jpeg') no-repeat;
+  background-size: cover;
+  padding-top: 32px;
+}
+
+.header .main-nav {
+  text-align: center;
+}
+
+.main-nav .navbar-button .navbar-nav .nav-item {
+  display: inline-block;
+  margin: 0 2px 32px 0;
+}
+
+.nav-item .nav-link {
+  color: white;
+  padding: 16px;
+  font-size: 20px;
+  text-transform: uppercase;
+
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+
+  transition: background-color 0.5s;
+
+  text-decoration: none;
+}
+
+.nav-item .nav-link:hover {
+  background-color: #48a3a6;
+}
