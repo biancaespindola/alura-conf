@@ -30,3 +30,24 @@
 .nav-item .nav-link:hover {
   background-color: #48a3a6;
 }
+
+.header .jumbotron {
+  text-align: center;
+  padding: 0 0 44px 0;
+}
+
+.header .panel-main {
+  color: white;
+  text-shadow: 4px 4px 10px black;
+  font-weight: bold;
+}
+
+.header .jumbotron .title {
+  font-size: 48px;
+}
+
+.header .jumbotron .subtitle {
+  font-size: 40px;
+  color: #45e037;
+  margin-top: 7px;
+}
