@@ -28,7 +28,7 @@
 }
 
 .nav-item .nav-link:hover {
-  background-color: #48a3a6;
+  background-color: #079499;
 }
 
 .header .jumbotron {
@@ -74,4 +74,4 @@
   .header .jumbotron {
     font-size: 28px;
   }
-} ;
+}
