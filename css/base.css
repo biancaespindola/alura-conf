@@ -1,4 +1,43 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
 .container {
   width: 96%;
   margin: 0 auto;
+}
+
+.field {
+  margin-bottom: 16px;
+}
+
+.field label {
+  display: block;
+  font-size: 25px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.field input {
+  display: block;
+  width: 100%;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 8px;
+  box-shadow: 1px 1px 10px #48a3a6;
+}
+
+.button {
+  font-size: 18px;
+  color: white;
+  text-transform: uppercase;
+  padding: 25px 50px;
+  background-color: #48a3a6;
+  /* margin-top: 20px; */
+  border-radius: 10px;
+  font-weight: bold;
+
+  display: inline-block;
+
+  text-decoration: none;
 }
