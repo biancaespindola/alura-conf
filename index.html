@@ -23,10 +23,10 @@
         <div class="navbar-button">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="">Sobre</a>
+              <a class="nav-link" href="#panel-about">Sobre</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Palestrantes</a>
+              <a class="nav-link" href="#panel-speakers">Palestrantes</a>
             </li>
           </ul>
         </div>
@@ -38,12 +38,12 @@
         </section>
 
         <section class="panel-subscribe">
-          <a class="button" href="">Inscreva-se</a>
+          <a class="button" href="#panel-form">Inscreva-se</a>
         </section>
       </div>
     </header>
     
-    <section class="panel panel-about">
+    <section id="panel-about" class="panel panel-about" >
 
       <div class="container">     
 
@@ -66,7 +66,7 @@
       </div>
     </section>
 
-    <section class="panel panel-speakers">
+    <section id="panel-speakers" class="panel panel-speakers">
       <div class="container">
         <div class="about-speakers">
           <h2 class="title">PALESTRANTES</h2>
@@ -132,7 +132,7 @@
       </div>
     </section>
 
-    <section class="panel-form container q">
+    <section id="panel-form" class="panel-form container q">
       <h2 class="title">Seus dados</h2>
       <form>
         <div class="field">
@@ -150,5 +150,7 @@
       </form>
     </section>
     
+    <script src="js/jquery.js"></script>
+    <script src="js/index.js"></script>
   </body>
 </html>

@@ -1,0 +1,15 @@
+.panel-form {
+  margin-top: 32px;
+}
+
+.panel-form .title {
+  font-size: 32px;
+  color: #d36f4e;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 13px;
+}
+
+.button-place {
+  text-align: center;
+}
